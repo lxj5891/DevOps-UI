@@ -32,7 +32,7 @@ module.exports = function(grunt) {
     // Run predefined tasks whenever watched file patterns are added, changed or deleted.
     watch: {
       less: {
-          files: ["*.less", "less/*.less"]
+          files: ["*.less", "less/*.less","less/variables/*.less"]
         , tasks: ["less:development"]
         , options : {
             livereload: true

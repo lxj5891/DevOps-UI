@@ -1,0 +1,8 @@
+// https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
+.box-sizing(@box-model) {
+  -webkit-box-sizing: @box-model; // Safari <= 5
+  -moz-box-sizing: @box-model; // Firefox <= 19
+  -ms-box-sizing: @box-model;
+  -o-box-sizing: @box-model;
+  box-sizing: @box-model;
+}
