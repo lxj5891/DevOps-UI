@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Html 5 所有标签</title>
+
+  <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css" />
+  <script src="../bootstrap/js/jquery-1.10.2.min.js"></script>
+  <script src="../bootstrap/js/bootstrap.js"></script>
+
+
+</head>
+<body>
+<header>
+  <h2>Html 5 所有标签</h2>
+</header>
+<nav>
+  <h4>标签分类</h4>
+  <ul>
+    <li>
+      <h5>基础</h5>
+      <ul>
+        <li><a href="#h1-6">定义 HTML 标题，h1...6</a></li>
+        <li><a href="#p-br-hr">段落标签，p，br，hr</a></li>
+      </ul>
+    </li>
+    <li>
+      <h5>格式</h5>
+      <ul>
+        <li><a href="#h1-6">定义 HTML 标题，h1...6</a></li>
+      </ul>
+    </li>
+    <li>
+      <h5>表单</h5>
+      <ul>
+        <li><a href="#form-input">输入Input</a></li>
+        <li><a href="#form-other">textarea, button, select, optgroup</a></li>
+        <li><a href="#form-table">表格</a></li>
+        <li><a href="#form-list">列表</a></li>
+        <li><a href="#form-link">连接</a></li>
+        <li><a href="#form-set">集合</a></li>
+      </ul>
+    </li>
+    <li>
+      <h5>图像</h5>
+      <ul>
+        <li><a href="#img">图像</a></li>
+        <li><a href="#map">图像映射</a></li>
+        <li><a href="#area">图像地图内部的区域</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+<article>
+<!--定义 HTML 标题-->
+<article id="h1-6">
+  <!--代码-->
+  <section>
+  </section>
+  <!--表示效果-->
+  <section>
+    <h1>定义 HTML 标题<small>定义 HTML 标题</small></h1>
+    <h2>定义 HTML 标题<small>定义 HTML 标题</small></h2>
+    <h3>定义 HTML 标题<small>定义 HTML 标题</small></h3>
+    <h4>定义 HTML 标题<small>定义 HTML 标题</small></h4>
+    <h5>定义 HTML 标题<small>定义 HTML 标题</small></h5>
+    <h6>定义 HTML 标题<small>定义 HTML 标题</small></h6>
+  </section>
+  <!--描述-->
+  <details>
+
+  </details>
+</article>
+<!--定义段落-->
+<article id="p-br-hr">
+  <!--代码-->
+  <section>
+  </section>
+  <!--表示效果-->
+  <section>
+    <p>This is a paragraph. Paragraphs are preset with a font size, line height and spacing to match the overall vertical rhythm. To show what a paragraph looks like this needs a little more content -- so, did you know that there are storms occurring on Jupiter that are larger than the Earth? Pretty cool. Wrap strong around type to make it bold! You can also use em to italicize your words.</p>
+    换行了<br/>
+    水平线<hr/>
+  </section>
+  <!--描述-->
+  <details>
+
+  </details>
+</article>
+<!--输入-->
+<article id="form-input">
+  <!--代码-->
+  <section>
+  </section>
+  <!--表示效果-->
+  <section>
+    <form>
+      <label>text(required):<input type="text" required="required"/></label>
+      <p>checkbox: <input type="checkbox" /></p>
+      <p>file: <input type="file"/></p>
+      <p>image: <input type="image"/></p>
+      <p>password: <input type="password"/></p>
+      <p>radio: <input type="radio"/></p>
+      <p>email: <input type="email"/></p>
+      <p>url: <input type="url"/></p>
+      <p>number:  <input type="number" name="points" min="0" max="10" step="3" /></p>
+      <p>range: <input type="range"/></p>
+      <p>Date pickers: <input type="date"/></p>
+      <p>search: <input type="search"/></p>
+      <p>color: <input type="color"/></p>
+      <p>button: <input type="button" value="button"/></p>
+      <p>reset: <input type="reset"/></p>
+      <p>submit: <input type="submit"/></p>
+    </form>
+  </section>
+  <!--描述-->
+  <details>
+    表单
+  </details>
+</article>
+<!--other-->
+<article id="form-other">
+  <!--代码-->
+  <section>
+  </section>
+  <!--表示效果-->
+  <section>
+    <form>
+      <textarea rows="3" cols="20">
+        Textarea.
+      </textarea>
+      <br/>
+      <button type="button">Click Me!</button>
+      <br/>
+      <select>
+        <option value ="volvo">Volvo</option>
+        <option value ="saab">Saab</option>
+        <option value="opel">Opel</option>
+        <option value="audi">Audi</option>
+      </select>
+      <br/>
+      <select>
+        <optgroup label="Swedish Cars">
+          <option value ="volvo">Volvo</option>
+          <option value ="saab">Saab</option>
+        </optgroup>
+
+        <optgroup label="German Cars">
+          <option value ="mercedes">Mercedes</option>
+          <option value ="audi">Audi</option>
+        </optgroup>
+      </select>
+    </form>
+  </section>
+  <!--描述-->
+  <details>
+    表单
+  </details>
+</article>
+<!--table-->
+<article id="form-table">
+  <!--代码-->
+  <section>
+  </section>
+  <!--表示效果-->
+  <section>
+    <form>
+      <table>
+        <thead>
+        <tr>
+          <th>Month</th>
+          <th>Savings</th>
+        </tr>
+        </thead>
+        <tfoot>
+        <tr>
+          <td>Sum</td>
+          <td>$180</td>
+        </tr>
+        </tfoot>
+        <tbody>
+        <tr>
+          <td>January</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>February</td>
+          <td>$80</td>
+        </tr>
+        </tbody>
+      </table>
+    </form>
+  </section>
+  <!--描述-->
+  <details>
+    表单
+  </details>
+</article>
+<!--list-->
+<article id="form-list">
+  <!--代码-->
+  <section>
+  </section>
+  <!--表示效果-->
+  <section>
+    <form>
+      <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ul>
+      <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ol>
+      <dl>
+        <dt>计算机</dt>
+        <dd>用来计算的仪器 ... ...</dd>
+        <dt>显示器</dt>
+        <dd>以视觉方式显示信息的装置 ... ...</dd>
+      </dl>
+      <menu>
+        <li>html</li>
+        <li>xhtml</li>
+      </menu>
+    </form>
+  </section>
+  <!--描述-->
+  <details>
+    表单
+  </details>
+</article>
+<!--link-->
+<article id="form-link">
+  <!--代码-->
+  <section>
+  </section>
+  <!--表示效果-->
+  <section>
+    <form>
+      <textarea rows="3" cols="20">
+        Textarea.
+      </textarea>
+      <br/>
+      <button type="button">Click Me!</button>
+      <br/>
+      <select>
+        <option value ="volvo">Volvo</option>
+        <option value ="saab">Saab</option>
+        <option value="opel">Opel</option>
+        <option value="audi">Audi</option>
+      </select>
+      <br/>
+      <select>
+        <optgroup label="Swedish Cars">
+          <option value ="volvo">Volvo</option>
+          <option value ="saab">Saab</option>
+        </optgroup>
+
+        <optgroup label="German Cars">
+          <option value ="mercedes">Mercedes</option>
+          <option value ="audi">Audi</option>
+        </optgroup>
+      </select>
+    </form>
+  </section>
+  <!--描述-->
+  <details>
+    表单
+  </details>
+</article>
+<!--集合-->
+<article id="form-set">
+  <!--代码-->
+  <section>
+    <code>
+      <!--<p>段落</p>-->
+      <!--换行了<br/>-->
+      <!--水平线<hr/>-->
+    </code>
+  </section>
+  <!--表示效果-->
+  <section>
+    <form>
+      <fieldset>
+        <legend>health information</legend>
+        height: <input type="text" />
+        weight: <input type="text" />
+      </fieldset>
+    </form>
+  </section>
+  <!--描述-->
+  <details>
+    <summary>HTML 5</summary>
+    集合
+  </details>
+</article>
+<!--图像-->
+<article id="img">
+  <!--代码-->
+  <section>
+  </section>
+  <!--表示效果-->
+  <section>
+    <form>
+      <p><span>some text.</span>some other text.</p>
+      <p>请点击图像上的星球，把它们放大。</p>
+
+      <!--<img-->
+      <!--src="/i/eg_planets.jpg"-->
+      <!--border="0" usemap="#planetmap"-->
+      <!--alt="Planets" />-->
+
+      <!--<map name="planetmap" id="planetmap">-->
+
+      <!--<area-->
+      <!--shape="circle"-->
+      <!--coords="180,139,14"-->
+      <!--href ="/example/html/venus.html"-->
+      <!--target ="_blank"-->
+      <!--alt="Venus" />-->
+
+      <!--<area-->
+      <!--shape="circle"-->
+      <!--coords="129,161,10"-->
+      <!--href ="/example/html/mercur.html"-->
+      <!--target ="_blank"-->
+      <!--alt="Mercury" />-->
+
+      <!--<area-->
+      <!--shape="rect"-->
+      <!--coords="0,0,110,260"-->
+      <!--href ="/example/html/sun.html"-->
+      <!--target ="_blank"-->
+      <!--alt="Sun" />-->
+
+      <!--</map>-->
+    </form>
+  </section>
+  <!--描述-->
+  <details>
+    集合
+  </details>
+</article>
+</article>
+<footer>
+  <p>
+    <small>Copyright 2014.</small>
+  </p>
+</footer>
+</body>
+</html>
